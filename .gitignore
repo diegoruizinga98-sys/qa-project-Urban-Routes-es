@@ -3,26 +3,18 @@
 env/
 venv/
 
-# Archivos compilados de Python
+# Cachés y compilados
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+.pytest_cache/
 
-# Configuración de IDE
+# IDE
 .idea/
 .vscode/
 
-# Cachés de pruebas
-.pytest_cache/
-.coverage
-*.log
-
-# Drivers y binarios
+# Drivers
 msedgedriver.exe
 chromedriver.exe
 geckodriver.exe
-
-# Otros archivos innecesarios
-.DS_Store
-Thumbs.db
