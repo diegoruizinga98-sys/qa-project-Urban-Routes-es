@@ -1,0 +1,10 @@
+# Dependencias principales
+selenium==4.23.1
+pytest==8.2.2
+
+# Soporte de logs CDP (para extraer el código SMS desde DevTools)
+webdriver-manager==4.0.1
+
+# Opcional: mejorar la legibilidad de los reportes de pytest
+pytest-html==4.1.1
+pytest-xdist==3.6.1

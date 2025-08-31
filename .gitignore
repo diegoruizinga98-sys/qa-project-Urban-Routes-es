@@ -1,0 +1,28 @@
+# Entornos virtuales
+.venv/
+env/
+venv/
+
+# Archivos compilados de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Configuración de IDE
+.idea/
+.vscode/
+
+# Cachés de pruebas
+.pytest_cache/
+.coverage
+*.log
+
+# Drivers y binarios
+msedgedriver.exe
+chromedriver.exe
+geckodriver.exe
+
+# Otros archivos innecesarios
+.DS_Store
+Thumbs.db
