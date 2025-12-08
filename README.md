@@ -1,4 +1,4 @@
-# Urban Routes Prueba Web Selenium Sprint 8 QA - 35
+# Urban Routes Prueba Web Selenium
 # Diego Ruiz Inga
 
 ## Descripción del Proyecto
