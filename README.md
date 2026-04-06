@@ -82,4 +82,4 @@ La automatización se diseñó para reemplazar la regresión manual que consumí
 ## 👤 Autor
 
 **Diego Ruiz Inga** · QA Automation Engineer  
-🌐 [Portafolio](https://diegoruizinga98-sys.github.io/diego-ruiz-inga-qa/) · [LinkedIn](https://www.linkedin.com/in/diego-ruiz-inga/) · 📧 diegori466@gmail.com
+🌐 [Portafolio](https://diegoruizinga98-sys.github.io/diego-ruiz-inga-qa/) · [LinkedIn](https://www.linkedin.com/in/diego-ruiz-inga/) · 📧 ruizingadiego@gmail.com
