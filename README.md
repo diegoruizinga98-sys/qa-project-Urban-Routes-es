@@ -1,7 +1,7 @@
 # 🚗 Urban Routes — Selenium WebDriver Automation
 
 **QA Automation Engineer:** Diego Ruiz Inga  
-**Sprint:** 9 · TripleTen QA Bootcamp  
+**Bootcamp:** TripleTen QA Engineer  
 **Stack:** Python 3.11 · Selenium WebDriver · Pytest · Page Object Model · CDP Logs · Edge WebDriver
 
 ---
@@ -64,7 +64,7 @@ El flujo cubre 8 pasos críticos: selección de ruta, tarifa Comfort, número de
 | Tiempo de ejecución | < 1 min |
 | Tiempo manual previo | ~30 min |
 | Reducción de tiempo de regresión | **97%** |
-| Tasa de aprobación en sprint | **67%** (67/100 casos funcionales) |
+| Tasa de aprobación | **67%** (67/100 casos funcionales) |
 
 ---
 
