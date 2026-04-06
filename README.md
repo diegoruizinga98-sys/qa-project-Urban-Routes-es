@@ -1,16 +1,18 @@
 # 🚗 Urban Routes — Selenium WebDriver Automation
 
-**QA Automation Engineer:** Diego Ruiz Inga  
-**Bootcamp:** TripleTen QA Engineer  
+Proyecto de automatización E2E para **Urban Routes**, una plataforma web de solicitud de taxis que integra múltiples métodos de pago, tarifas y asignación de conductores en tiempo real.
+
+La suite cubre el flujo crítico de negocio de extremo a extremo: desde la selección de ruta hasta la confirmación del conductor, garantizando que cada paso funcione correctamente antes de llegar a producción.
+
 **Stack:** Python 3.11 · Selenium WebDriver · Pytest · Page Object Model · CDP Logs · Edge WebDriver
 
 ---
 
-## 📋 Descripción del proyecto
+## 📋 Contexto del proyecto
 
-Automatización E2E del flujo completo de pedido de taxi en la plataforma web **Urban Routes**, aplicando el patrón **Page Object Model (POM)** en 3 capas (pages, helpers, data).
+**Urban Routes** es una aplicación web que permite a usuarios solicitar taxis configurando origen, destino, tipo de tarifa y método de pago. El flujo de compra involucra interacciones complejas entre múltiples componentes de UI, validación de formularios y comunicación con servicios externos (verificación de teléfono vía SMS).
 
-El flujo cubre 8 pasos críticos: selección de ruta, tarifa Comfort, número de teléfono, código SMS vía CDP, tarjeta de crédito, mensaje al conductor, manta y pañuelos, pedido final.
+La automatización se diseñó para reemplazar la regresión manual que consumía ~30 minutos por ciclo, aplicando **Page Object Model en 3 capas** para maximizar el mantenimiento y la reutilización del código.
 
 **Resultado clave:** ⬇️ **97% de reducción en tiempo de regresión** (30 min manuales → menos de 1 min automatizado)
 
