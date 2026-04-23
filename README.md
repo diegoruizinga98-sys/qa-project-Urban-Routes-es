@@ -4,7 +4,9 @@ Proyecto de automatización E2E para **Urban Routes**, una plataforma web de sol
 
 La suite cubre el flujo crítico de negocio de extremo a extremo: desde la selección de ruta hasta la confirmación del conductor, garantizando que cada paso funcione correctamente antes de llegar a producción.
 
-**Stack:** Python 3.11 · Selenium WebDriver · Pytest · Page Object Model · CDP Logs · Edge WebDriver
+**Stack:** Python 3.11 · Selenium WebDriver · Pytest · Page Object Model · CDP Logs · Edge WebDriver · Karate DSL · Rest Assured · Serenity · Appium
+**Test Management:** Jira + Xray · Gherkin
+**Testing Continuo:** Jenkins
 
 ---
 
@@ -12,7 +14,7 @@ La suite cubre el flujo crítico de negocio de extremo a extremo: desde la selec
 
 **Urban Routes** es una aplicación web que permite a usuarios solicitar taxis configurando origen, destino, tipo de tarifa y método de pago. El flujo de compra involucra interacciones complejas entre múltiples componentes de UI, validación de formularios y comunicación con servicios externos (verificación de teléfono vía SMS).
 
-La automatización se diseñó para reemplazar la regresión manual que consumía ~30 minutos por ciclo, aplicando **Page Object Model en 3 capas** para maximizar el mantenimiento y la reutilización del código.
+La automatización se diseñó para reemplazar la regresión manual que consumía ~30 minutos por ciclo, aplicando **Page Object Model en 3 capas** para maximizar el mantenimiento y la reutilización del código. Todo esto respaldado por una gestión de pruebas estructurada en **Jira + Xray** mediante **Gherkin**, y preparado para integrarse en pipelines de **Testing Continuo con Jenkins**.
 
 **Resultado clave:** ⬇️ **97% de reducción en tiempo de regresión** (30 min manuales → menos de 1 min automatizado)
 
